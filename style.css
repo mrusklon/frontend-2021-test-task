@@ -2,3 +2,12 @@
     font-size: 27px;
     font-weight: bold;
 }
+.uninfected{
+    background-color: #CEFFCE;
+}
+.infected{
+    background-color: #FFCECE;
+}
+.ocean{
+    background-color: #CECEFF;
+}
