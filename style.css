@@ -3,7 +3,7 @@
     font-weight: bold;
 }
 
-.pandemicStart {
+.pandemicStart, .pandemicEnd {
     display: flex;
     flex-direction: row;
 }
