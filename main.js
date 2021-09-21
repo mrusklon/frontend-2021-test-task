@@ -46,4 +46,25 @@ for (let i = 0; i < infectedArr.length; i++) {
 
 infection(infectedArr, pandemicEnd);
 
+var totalSum = 0;
+for (let i = 0; i < infectedArr.length; i++) {
+    if (infectedArr[i] == 0 || infectedArr[i] == 1) {
+        totalSum = totalSum +1;
+    }
+}
+
+document.getElementById("totalSum").innerHTML = totalSum;
+
+var infectedSum = 0;
+for (let i = 0; i < infectedArr.length; i++) {
+    if (infectedArr[i] == 1) {
+        infectedSum = infectedSum +1;
+    }
+}
+
+document.getElementById("infectedSum").innerHTML = infectedSum;
+
+let percentSum = infectedSum / totalSum * 100;
+
+document.getElementById("percentSum").innerHTML = percentSum + "%";
 
